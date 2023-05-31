@@ -5,7 +5,7 @@ import Headers from "@/components/header";
 export default function App({ Component, pageProps }) {
   return (
     <div>
-      <Headers name="marketing plan"></Headers>
+      <Headers></Headers>
       <Component {...pageProps} />
     </div>
   );
