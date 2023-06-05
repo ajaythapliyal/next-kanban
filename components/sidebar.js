@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Sidebar({ classes, boards, boardId }) {
   return (
-    <nav className={`${classes || ""}`}>
+    <nav className={`${classes || ""} pr-3`}>
       <h2 className="my-5">ALL BOARDS ({boards.length})</h2>
       <div className="flex flex-col">
         {boards.map((board) => (

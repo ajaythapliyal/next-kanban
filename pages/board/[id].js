@@ -2,8 +2,13 @@ import Sidebar from "@/components/sidebar";
 
 export default function Board({ boards, boardId }) {
   return (
-    <main className="px-4">
-      <Sidebar boards={boards} boardId={boardId}></Sidebar>
+    <main className="px-4 flex">
+      <Sidebar
+        boards={boards}
+        boardId={boardId}
+        classes="w-60 border-r border-primary1 h-[calc(100vh-82px)]"
+      ></Sidebar>
+      <div>i am main</div>
     </main>
   );
 }
